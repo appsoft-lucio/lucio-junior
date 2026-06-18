@@ -1,0 +1,1 @@
+export function Footer() { return <footer><div className="container footer-content"><a className="brand" href="#inicio"><span className="brand-mark">&lt;LJ /&gt;</span><span>Lúcio Júnior</span></a><p>© {new Date().getFullYear()} — Feito com TypeScript, React e café.</p></div></footer> }
