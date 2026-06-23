@@ -24,19 +24,19 @@ export function Hero() {
         <div className="hero-copy">
           <div className="availability">
             <span />
-            Disponível para novos projetos
+            Disponível para novos projetos e parcerias
           </div>
           <p className="eyebrow">Olá, eu sou o Lúcio</p>
           <h1>
-            Transformo ideias em <span>experiências digitais.</span>
+            Sistemas e sites para <span>negócios que precisam evoluir.</span>
           </h1>
           <p className="hero-text">
-            Desenvolvedor Full Stack e professor, criando soluções que unem tecnologia, estratégia e uma experiência
-            simples de usar.
+            Desenvolvedor Full Stack e professor, criando soluções para presença digital, registros internos,
+            autenticação, relatórios e rotinas operacionais com clareza e segurança.
           </p>
           <div className="hero-actions">
-            <a className="button" href="#projetos">
-              Ver projetos <ArrowDown size={18} />
+            <a className="button" href="#solucoes">
+              Ver soluções <ArrowDown size={18} />
             </a>
             <a className="button button-ghost" href="https://github.com/appsoft-lucio" target="_blank" rel="noreferrer">
               <Github size={18} /> GitHub
