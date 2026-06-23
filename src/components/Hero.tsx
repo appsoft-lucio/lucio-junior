@@ -1,5 +1,8 @@
 import { ArrowDown, ArrowUpRight, Github } from 'lucide-react'
 
+const whatsappUrl =
+  'https://wa.me/5531988047534?text=Ol%C3%A1%2C%20L%C3%BAcio.%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20solu%C3%A7%C3%A3o%20digital.'
+
 const profileTechnologies = [
   'TypeScript',
   'React',
@@ -51,11 +54,17 @@ export function Hero() {
             </div>
           ))}
           <div className="profile-orbit">
-            <div className="profile-frame">
+            <a
+              className="profile-frame"
+              href={whatsappUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Chamar Lúcio Júnior no WhatsApp"
+            >
               <img src="https://avatars.githubusercontent.com/u/183949130?v=4" alt="Lúcio Júnior" />
-            </div>
+            </a>
           </div>
-          <a className="profile-link" href="#contato" aria-label="Entrar em contato">
+          <a className="profile-link" href={whatsappUrl} target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">
             <ArrowUpRight />
           </a>
         </div>
